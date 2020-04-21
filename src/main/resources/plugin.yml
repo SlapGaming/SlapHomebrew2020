@@ -1,0 +1,300 @@
+# Auto-generated plugin.yml, generated at 2020/04/20 18:26:11 by org.bukkit.plugin.java.annotation.PluginAnnotationProcessor
+
+main: com.slapgaming.slaphomebrew.SlapPlugin
+name: SlapHomebrew
+version: '2020.0'
+api-version: '1.15'
+description: Plugin that steals stuff from the original SlapHomebrew for Slap MC 2020
+depend:
+- Vault
+- Essentials
+commands:
+#  vip:
+#    description: Same as vipitem.
+#    usage: "Usage: /vip help"
+#  vipforum:
+#    description: VIP Forum Promotions
+#    usage: "Usage: /vipforum <check | finish [ID]>"
+#    aliases: [forumvip]
+#  minecart:
+#    description: Spawns you inside a moving minecart.
+#  boat:
+#    description: Spawns you inside a boat.
+#  te:
+#    description: Tps you to the specified player.
+#    usage: "Usage: /te [player]"
+#  tpblock:
+#    description: Adds you to a tp block list.
+#    aliases: [teblock]
+#  tpallow:
+#    description: Add certain players to a whitelist so they can still tp to you when you are blocking teleports.
+#    aliases: [teallow]
+  slap:
+    description: Contains all SlapHomebrew management commands and a couple fun commands.
+    aliases: [slaphomebrew]
+#  backdeath:
+#    description: Returns you to your death point.
+#  creativeextra:
+#    description: Opens an inventory with extra items that are not available in the creative inventory.
+#    aliases: [cextra]
+#  message:
+#    description: Allows quicker access to default messages.
+#    usage: "Usage: /message [name] or /message create [name] or /message list or /message show [message]"
+#  searchregion:
+#    description: Searches for a worldguard region.
+#    usage: "Usage: /searchregion [regionname] <[Worldname] | old>"
+#    aliases: [srg, searchrg]
+#  roll:
+#    description: Roll a random number to win prizes in the hourly lottery!
+#  note:
+#    aliases: [n]
+#    description: Command to see and change the tone/octave of a note.
+#    usage: "Usage: /note [octave] [tone]"
+#  mobcheck:
+#    description: Searches all mobs nearby online players.
+  sgm:
+    description: Quickly switch between survival and creative gamemodes.
+#  group:
+#    description: Check what group a player is in.
+#    usage: "Usage: /group [playername]"
+#    aliases: [getgroup]
+#  potion:
+#    description: Potion effects commands.
+#    usage: "Usage: /potion [name] <target(or me/self for self-targeting> <time in s> <power>."
+  ride:
+    description: Ride other players or entities!
+#  plot:
+#    usage: "Usage: /plot [check <ID> | mark <Comment> | teleport [ID] | finish [ID] <Comment>]"
+#    description: Multifunctional command for plot-clearing.
+#  pmark:
+#    description: Mark a plot to be cleared.
+#  pcheck:
+#  ptp:
+#  pdone:
+#  bumpdone:
+#  pay:
+#    description: Pays another player from your balance
+#    usage: "Usage: /pay [player] [amount]"
+  sparta:
+    description: Knock a player back. This is sparta.
+    usage: "Usage: /sparta [player]"
+#  world:
+#    description: Tells you what world you're in.
+  rainbow:
+    description: Turns your leather armor into a rainbow.
+#  afk:
+#    description: Toggle afk
+#    usage: "Usage: /afk <reason>"
+#  afkinfo:
+#    description: Get the AFK Reason of a player/all players
+#    usage: "Usage: /afkinfo <[Player] | list>"
+#  afklist:
+#    description: Get a list of all AFK players
+#    usage: "Usage: /afklist"
+#  homemenu:
+#    description: Show the homes icon menu
+#    usage: "Usage: /homemenu"
+#  spawn:
+#    description: Teleport to the spawn (of a world)
+#    usage: "Usage: /spawn <world>"
+#  home:
+#    description: Teleports you home.
+#    usage: "Usage: /home <homename>"
+#  homes:
+#    description: Gives you a list of your homes.
+#    usage: "Usage: /homes"
+#  homeother:
+#    usage: "Usage: /homeother [player] <[homename] | list>"
+#  horse:
+#    description: Horse commands
+#    usage: "Need help? /horse help"
+#  changelog:
+#    description: Show the server changelog!
+#    usage: "Usage: /changelog <page>"
+#    aliases: [new]
+#  stafflist:
+#    description: Shows the current online staffmembers
+#    usage: "Usage: /stafflist"
+#    aliases: [modlist, staff, mods]
+#  leave:
+#    description: Leave the pvp world.
+#  mail:
+#    description: Mail plugin
+#    usage: "Usage: /mail help"
+#  jail:
+#    description: Jail a person.
+#    usage: "Usage: /Jail [player] [jail] [time+h/m/s] [reason]"
+#  jails:
+#    description: Get a list of all the jails.
+#    usage: "Usage: /jails"
+#  unjail:
+#    description: Unjail a player.
+#    usage: "Usage: /unjail [player]"
+#  xray:
+#    description: Check the mined blocks stats of a player in a certain world
+#    usage: "Usage: /xray [player] [world] <all>"
+#    aliases: [xcheck]
+#  list:
+#    description: List of online players
+#    usage: "Usage: /list"
+#    aliases: [who, online]
+#  fireworkshow:
+#    description: Warp to the fireworkshow
+#    usage "Usage: /fireworkshow"
+#  spromote:
+#    description: Promote a player
+#  sdemote:
+#    description: Demote a player
+#  skick:
+#  worldguards:
+#    description: Get the regions at your location
+#    usage: "Usage: /worldguards or /wgs"
+#    aliases: [wgs]
+#  worthlist:
+#    description: See how much all the items are worth
+#    usage: "Usage: /worthlist <page>"
+#  splugins:
+#    description: Get a list of the plugins
+#    usage: "Usage: /splugins"
+  suicide:
+    description: Commit suicide
+    usage: "Usage: /suicide"
+#  deaths:
+#    description: Get the number of deaths since the 5th of Januari 2014
+#    usage: "Usage: /deaths"
+#  kills:
+#    description: Get the number of kills since the 5th of Januari 2014 or a (monthly) leaderboard
+#    usage: "Usage: /kills <Leaderboard [Monthly]>"
+#  onlinetime:
+#    description: Get your time spent on the server since the 5th of Januari 2014
+#    usage: "Usage: /onlinetime <Leaderboard>"
+#    aliases: [playtime,afktime]
+#  teleportmob:
+#    aliases: [tpmob]
+#  improvedregion:
+#    description: The improved region commands
+#    usage: "Usage: /improvedregion help"
+#    aliases: [irg, improvedrg, iregion]
+  guide: #Guide chat
+    aliases: [g, gc, helpop]
+  mod: #Mod chat
+    aliases: [mc]
+  admin: #Admin chat
+    aliases: [a, amsg, ac]
+  potato: #Potato chat
+    aliases: [pc, x]
+#  chattoggle:
+#    aliases: [togglechat, tc, ct]
+#  mention:
+#    description: Commands for the @Mention feature
+#    usage: "Usage: /mention < help | info | sound <on/off> >"
+#  fancymessage:
+#    description: Fancy messages!
+#    aliases: [fm]
+#  promotion:
+#    description: Promotion commands
+#  whitelist:
+#    description: Whitelist for maintenance
+#    usage: "Usage: /whitelist < on | off | add [Player] | remove [Player] | getMessage | setMessage [Message..] | whitelisted | status >"
+#  ping:
+#    description: Get your connection latency to the server & the server status. Green = Good, Orange/Gold = Mediocre, Red = Bad
+#    aliases: [pong, lag]
+#    usage: "Usage: /ping"
+#  links:
+#    description: Get quick acces to website links!
+#    aliases: [link]
+#    usage: "Usage: /links"
+#  timecheck:
+#    aliases: [checktime]
+#  flyspeed:
+#    description: Set your fly speed in the creative world
+#    usage: "Usage: /flyspeed [1-3]"
+#  head:
+#    description: Get your head!
+#    usage: "Usage: /head"
+  wave:
+    description: Wave to someone!
+    usage: "Usage: /wave <player>"
+    aliases: [waves]
+#  ragequit:
+#    description: Leave in a fit or rage!
+#    usage: "Usage: /ragequit"
+#  tpaccept:
+#    description: Accept an incoming teleport request.
+#    usage: "Usage: /tpaccept <player>"
+#    aliases: [teleportaccept]
+#  tpask:
+#    description: Request to teleport to someone.
+#    usage: "Usage: /tpask <Player>"
+#    aliases: [teleportask, tpa]
+#  tpaskhere:
+#    description: Request someone to teleport to you.
+#    usage: "Usage: /tpaskhere <Player>"
+#    aliases: [teleportaskhere, tpahere, tpah]
+#  tpcancel:
+#    description: Cancel an outgoing teleport request.
+#    usage: "Usage: /tpcancel"
+#    aliases: [tpc, teleportcancel]
+#  tpdeny:
+#    description: Deny an incoming teleport request.
+#    usage: "Usage: /tpdeny <Player>"
+#    aliases: [teleportdeny, tpd]
+#  tphere:
+#    description: Directly teleport people to you.
+#    usage: "Usage: /tphere <Player 1> [Player 2...]"
+#    aliases: [teleporthere, tph, s]
+#  tp:
+#    description: Teleport directly to someone.
+#    usage: "Usage: /tp <Player>"
+#    aliases: [teleport]
+#  tprequests:
+#    description: Get a list of all the current pending teleport requests
+#    usage: "Usage: /tprequests"
+#    aliases: [teleportrequests, tpr]
+#  back:
+#    description: Return to your previous location.
+#    usage: "Usage: /back"
+#  sethome:
+#    description: Set a home
+#    usage: "Usage: /sethome <homename>"
+#  me:
+#    description: Describe an action/emotion
+#    usage: "Usage: /me <message>"
+#    aliases: [action, describe]
+#  serverbroadcast:
+#    description: Broadcast a message over all servers
+#    usage: "Usage: /serverbroadcast <message>"
+#    aliases: [crossbroadcast, sbroadcast, cbroadcast]
+#  msg:
+#    description: Private message another player
+#    usage: "Usage: /msg [Player] <message>"
+#    aliases: [m, t, w, tell, whisper]
+#  reply:
+#    description: Respond to the last player you contacted using private messages
+#    usage: "Usage: /reply <message>"
+#    aliases: [r]
+#  spartapads:
+#    description: Control command for the SpartaPads
+#    usage: "Usage: /spartpads help"
+#    aliases: [spads, spad, spartapad]
+#  mute:
+#    description: Command to mute players
+#    usage: "Usage: /mute help"
+#    aliases: [muted]
+#  unmute:
+#    description: Command to unmute players
+#    usage: "Usage: /unmute <Player>"
+#  semiafk:
+#    description: "Go Semi-AFK"
+#    usage: "Usage: /semiafk"
+#  profiler:
+#    description: "Player history command"
+#    usage: "Usage: /profiler <addnote|show|page>"
+#    aliases: [muted]
+#  emptybucket:
+#    description: "Empty a bucket"
+#    usage: "Usage: /emptybucket"
+#    aliases: [empty]
+#  names:
+#    description: "See the previous names of a player"
+#    usage: "Usage: /names [Player]"
